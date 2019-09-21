@@ -1,0 +1,10 @@
+A06:
+
+This is to calculate UDP checksum , we have taken three 16 bit numbers,using binary addition add these three numbers and we get the result in 16 bit.
+Convert that to 1's complement we need to data to the 3numbers along eith the checksum to reciever.
+The reciever will get the data as well as the checksum what we calculated, and the reciever adds the data what we have provided along with checksum91's complement result0
+are added together.
+
+If the output of sum of 16bit data and checksum is 1111111111111111.All fields will be in binary 1,even if there is one zero error is introduced in the data during transaction
+of data from sender to reciever.
+
